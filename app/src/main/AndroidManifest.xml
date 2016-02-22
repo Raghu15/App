@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.punit.app" >
+    <uses-permission android:name="android.permission.VIBRATE">
+    </uses-permission>
+    <uses-permission android:name="android.permission.SEND_SMS"></uses-permission>
+    <uses-permission android:name="android.permission.INTERNET"></uses-permission>
+
+
+
+
+
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".Jokes"
+            android:label="@string/app_name" >
+
+
+
+        </activity>
+
+        <activity android:name=".Text_to_SpeechActivity">
+
+        </activity>
+        <activity android:name=".MusicPlayerActivity">
+
+        </activity>
+        <activity android:name=".JSONExample">
+
+        </activity>
+        <activity android:name=".JSON_ArrayParsing"></activity>
+        <activity android:name=".SplashScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+
+        </activity>
+        <activity android:name=".ActivityNavigator">
+
+        </activity>
+        <receiver android:name=".MyReceiver">
+
+        </receiver>
+
+        <activity android:name=".BasicCalculator"
+            android:label="basiccalculator">
+
+        </activity>
+        <activity android:name=".GreetUser">
+
+        </activity>
+        <activity android:name=".NewsActivity">
+
+
+        </activity>
+        <activity android:name=".SmsActivity">
+
+
+        </activity>
+        <activity android:name=".ListViewDemo">
+
+
+
+
+        </activity>
+        <activity android:name=".WebviewActivity">
+
+        </activity>
+
+
+        <activity android:name=".MainActivity">
+
+
+        </activity>
+        <activity android:name=".AudioDemo">
+
+
+        </activity>
+        <activity android:name=".Tree">
+
+        </activity>
+        <activity android:name=".Photoeditor">
+
+
+        </activity>
+        <activity android:name=".NotificationResults">
+
+
+
+        </activity>
+        <activity android:name=".PersonalDetails">
+
+
+        </activity>
+        <activity android:name=".UserDetails">
+
+        </activity>
+        <activity android:name=".Orientation">
+
+
+
+
+        </activity>
+        <activity android:name=".Menus_Activity">
+
+
+        </activity>
+        <activity android:name=".DatePicker">
+
+        </activity>
+        <activity android:name=".Implicit">
+            
+        </activity>
+        
+
+        <activity android:name=".Analog_Digital_Clock">
+
+        </activity>
+
+        <activity android:name=".MainServiceActivity">
+
+        </activity>
+
+        <service android:name=".ServiceActivity"
+            android:enabled="true">
+        </service>
+        <activity android:name=".NextPage"></activity>
+        <activity android:name=".Notifications">
+
+        </activity>
+
+        <activity android:name=".AlarmManager_Activity">
+
+
+        </activity>
+        <receiver android:name=".MyBroadCastReceiver">
+
+        </receiver>
+    </application>
+
+
+</manifest>

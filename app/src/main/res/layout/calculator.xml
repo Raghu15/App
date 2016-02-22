@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:hint="Enter the first num"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:id="@+id/etFirstNum" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:hint="Enter the second num"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:id="@+id/etSecondNum" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content">
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:onClick="doCalculation"
+            android:layout_height="wrap_content"
+            android:text="+"
+            android:id="@+id/btnAdd" />
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:onClick="doCalculation"
+            android:layout_height="wrap_content"
+            android:text="-"
+            android:id="@+id/btnSub" />
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="doCalculation"
+            android:text="*"
+            android:id="@+id/btnMul" />
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:onClick="doCalculation"
+            android:layout_height="wrap_content"
+            android:text="/"
+            android:id="@+id/btnDiv" />
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="doCalculation"
+            android:text="%"
+            android:id="@+id/btnMod" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvResult"
+        android:layout_gravity="center_horizontal"
+        android:textSize="50dp" />
+
+</LinearLayout>
